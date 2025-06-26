@@ -1,0 +1,37 @@
+name: "Scan Release Artifacts and Update README"
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  virus-scan:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip
+        pip install requests PyGithub vt-py
+
+    - name: Scan & update README
+      env:
+        VT_API_KEY: ${{ secrets.VT_API_KEY }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        EXCLUDE_NAMES: 'LICENSE'
+        EXCLUDE_PREFIXES: '_'
+        PYTHONUNBUFFERED: '1'   # ensure immediate output flushing
+        REPOSITORY_TO_SCAN: 'simplex-chat/simplex-chat'
+      run: python scripts/scan_and_update.py
