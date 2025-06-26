@@ -5,6 +5,7 @@ import vt
 import hashlib
 from pathlib import Path
 from github import Github
+from datetime import datetime, timezone
 
 # Download release assets, compute SHA‑256, reuse existing VT report when present,
 # otherwise upload (wait_for_completion=True), then link VT GUI URL in README.
@@ -158,12 +159,18 @@ def main():
         print("Nothing scanned.")
         return
 
+    utc_now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+
     # Let's build README
-    lines = ["# VirusTotal Scan Results", ""]
+    lines = [
+        "# VirusTotal Scan Results",
+        f"_Last updated: {utc_now}_",
+        ""
+    ]
     for tag, files in results:
         lines.append(f"## {tag}")
-        lines.append("| File | Threat level |")
-        lines.append("| ---- | ------------ |")
+        lines.append("| File | Score |")
+        lines.append("| --- | --- |")
         for link, score in files:
             lines.append(f"| {link} | {score} |")
         lines.append("")  # blank line between tables
