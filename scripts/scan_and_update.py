@@ -132,16 +132,17 @@ def main():
                 stats = file_obj.last_analysis_stats
                 print(f"Cache hit for {name}")
             except vt.error.APIError as e:
-                # Explicitly check 404 for NotFound
+                # Explicitly check for NotFoundError
                 if getattr(e, "code", None) == "NotFoundError":
                     print(f"Not found in VT cache, uploading {name} ...")
                     try:
                         with open(save_path, "rb") as f:
-                            analysis = vt_client.scan_file(f, wait_for_completion=True)
-                        stats = analysis.last_analysis_stats
+                            vt_client.scan_file(f, wait_for_completion=True)
                     except Exception as up_err:
                         print(f"Upload failed for {name}: {up_err}")
                         continue
+                    file_obj = vt_client.get_object(f"/files/{sha256}")
+                    stats = file_obj.last_analysis_stats
                 else:
                     print(f"VT error for {name}: {e}")
                     continue
