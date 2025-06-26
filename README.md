@@ -1,8 +1,9 @@
 # VirusTotal Scan Results
+_Last updated: 2025-06-26 11:48:57 UTC_
 
 ## v6.4.0-beta.3
-| File | Threat level |
-| ---- | ------------ |
+| File | Score |
+| --- | --- |
 | [simplex-aarch64.apk](https://www.virustotal.com/gui/file/34b7c994813919763caa17750c1a5a6563965ae26b0baff3c3c0776e574baaeb) | 0/76 |
 | [simplex-armv7a.apk](https://www.virustotal.com/gui/file/c792a22c64fbf5cc0d09625fefa42cbffbea515b52d3f630bf160181be94e27d) | 0/76 |
 | [simplex-chat-macos-aarch64](https://www.virustotal.com/gui/file/9fc6f9e34884a6430f28afde31dea68373232eaf1536eb4b8d1eb62344dcda14) | 0/76 |
@@ -19,8 +20,8 @@
 | [simplex.apk](https://www.virustotal.com/gui/file/34b7c994813919763caa17750c1a5a6563965ae26b0baff3c3c0776e574baaeb) | 0/76 |
 
 ## v6.3.5
-| File | Threat level |
-| ---- | ------------ |
+| File | Score |
+| --- | --- |
 | [simplex-aarch64.apk](https://www.virustotal.com/gui/file/870f9397fee73132bda4015f0593f89f57d6e8a939ab6d88beb10a5a082d23b7) | 0/76 |
 | [simplex-armv7a.apk](https://www.virustotal.com/gui/file/4e6ebb0ffe795d42adb261a694d9130333e7a7ea5ce8a56399ef4c23c5db31da) | 0/76 |
 | [simplex-chat-macos-aarch64](https://www.virustotal.com/gui/file/ab89fcdb8a45d45f9d92a591c582ccd439faf2f121db210b8d51cc562e1d0981) | 0/76 |
