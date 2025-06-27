@@ -170,8 +170,8 @@ def main():
     ]
     for tag, files in results:
         lines.append(f"## {tag}")
-        lines.append("| File | Score |")
-        lines.append("| --- | --- |")
+        lines.append("| File | Threats detected |")
+        lines.append("| ---- | ---------------- |")
         for link, score in files:
             lines.append(f"| {link} | {score} |")
         lines.append("")  # blank line between tables
