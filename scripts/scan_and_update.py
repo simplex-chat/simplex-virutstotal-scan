@@ -125,7 +125,7 @@ def main():
                 print(f"Download error for {name}: {e}")
                 continue
 
-            markdown_link = f"[{name}](https://www.virustotal.com/gui/file/{sha256})"
+            vt_url = f"https://www.virustotal.com/gui/file/{sha256}"
 
             try:
                 file_obj = vt_client.get_object(f"/files/{sha256}")
@@ -147,8 +147,7 @@ def main():
                     print(f"VT error for {name}: {e}")
                     continue
 
-            tag_results.append((markdown_link, vt_score_str(stats)))
-
+            tag_results.append((name, vt_url, vt_score_str(stats)))
 
         if tag_results:
             results.append((tag, tag_results))
@@ -169,11 +168,17 @@ def main():
         ""
     ]
     for tag, files in results:
-        lines.append(f"## {tag}")
-        lines.append("| File | Threats detected |")
-        lines.append("| ---- | ---------------- |")
-        for link, score in files:
-            lines.append(f"| {link} | {score} |")
+        release_url = f"https://github.com/{scan_repo}/releases/tag/{tag}"
+        lines.append(f"## [{tag}]({release_url})")
+        lines.append("| File | Threats detected | Safe? |")
+        lines.append("| ---- | ---------------- | ----- |")
+        for fname, vt_url, score in files:
+            try:
+                mal_count = int(score.split("/")[0])
+                safe_emoji = "✅" if mal_count == 0 else "🛑"
+            except Exception:
+                safe_emoji = "❓"
+            lines.append(f"| {fname} | [{score}]({vt_url}) | {safe_emoji} |")
         lines.append("")  # blank line between tables
     content = "\n".join(lines)
 
