@@ -90,7 +90,7 @@ def main():
     gh_repo = gh.get_repo(update_repo)
 
     beta_tag, stable_tag = get_two_tags(scan_repo, gh_token)
-    tags_to_scan = [t for t in (beta_tag, stable_tag) if t]
+    tags_to_scan = [t for t in (stable_tag, beta_tag) if t]
 
     if not tags_to_scan:
         print("No suitable tags found.")
