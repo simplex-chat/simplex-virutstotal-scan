@@ -1,5 +1,5 @@
 # VirusTotal Scan Results
-_Last updated: 2025-12-29 02:45:14 UTC_
+_Last updated: 2025-12-30 02:37:31 UTC_
 
 ## [v6.4.8](https://github.com/simplex-chat/simplex-chat/releases/tag/v6.4.8)
 | File | Threats detected | Safe? |
@@ -30,7 +30,7 @@ _Last updated: 2025-12-29 02:45:14 UTC_
 ## [v6.5.0-beta.3](https://github.com/simplex-chat/simplex-chat/releases/tag/v6.5.0-beta.3)
 | File | Threats detected | Safe? |
 | ---- | ---------------- | ----- |
-| simplex-aarch64.apk | [0/76](https://www.virustotal.com/gui/file/8e875bed7b26c25e1714e27fc89edbd22d168e27d805f31b7d5480cfb3a5fca6) | ✅ |
+| simplex-aarch64.apk | [0/74](https://www.virustotal.com/gui/file/8e875bed7b26c25e1714e27fc89edbd22d168e27d805f31b7d5480cfb3a5fca6) | ✅ |
 | simplex-armv7a.apk | [0/76](https://www.virustotal.com/gui/file/cc3190f713623926f8d62883fb6e64241a834da5ec07e6e8a57e507c9a443203) | ✅ |
 | simplex-chat-macos-aarch64 | [0/76](https://www.virustotal.com/gui/file/ca6905c09b44fa4b032e19033befe497848b4d0d2c63119e49539365f34503c1) | ✅ |
 | simplex-chat-macos-x86-64 | [0/76](https://www.virustotal.com/gui/file/22ad818f584c92a6aa6a373c74db5b303883c4235f1b29a4790dfba62d19c759) | ✅ |
@@ -44,12 +44,12 @@ _Last updated: 2025-12-29 02:45:14 UTC_
 | simplex-chat-ubuntu-24_04-x86_64.deb | [0/76](https://www.virustotal.com/gui/file/386a4a84d450811ebca985257dd393316b2f406e243c3cee818f6d096d34f716) | ✅ |
 | simplex-chat-windows-x86-64 | [0/76](https://www.virustotal.com/gui/file/17dad5dd41f034d68930760ffa41dc758be29174664013050f75b6ef8f7b8ec4) | ✅ |
 | simplex-desktop-aarch64.AppImage | [0/76](https://www.virustotal.com/gui/file/4224ccb0e1fdc2b5a23d6df80dad27586ea4708c9bfd4b032eaa24953142e84c) | ✅ |
-| simplex-desktop-macos-aarch64.dmg | [0/76](https://www.virustotal.com/gui/file/d6b52d6cf259471217515694cd867ac4cfbcd4c989d0966380f840bd8d571667) | ✅ |
-| simplex-desktop-macos-x86_64.dmg | [0/76](https://www.virustotal.com/gui/file/508e1155d05d7cec6aae92252108d91fbb1c29db0c33436ea85ec145aecf4179) | ✅ |
-| simplex-desktop-ubuntu-22_04-aarch64.deb | [0/76](https://www.virustotal.com/gui/file/6f297bd5906ccc9ed4355ad2bbd01b2fa5171504944c4ca2c1b8a16fbf4a9526) | ✅ |
-| simplex-desktop-ubuntu-22_04-x86_64.deb | [0/76](https://www.virustotal.com/gui/file/73d9947058eda776f9cc63bb01390fcb23713a5617aa544b6ea11eb4c5e995c6) | ✅ |
-| simplex-desktop-ubuntu-24_04-aarch64.deb | [0/76](https://www.virustotal.com/gui/file/fc432510e31e135e778f3d2fc2eb99f39b59d7bcb3c96e0b372765955eb9b322) | ✅ |
-| simplex-desktop-ubuntu-24_04-x86_64.deb | [0/76](https://www.virustotal.com/gui/file/7c81c9998839d2e445fbab5b8d44bebf13f0eb6bb16c2dc380c1404cdbcb54de) | ✅ |
+| simplex-desktop-macos-aarch64.dmg | [0/74](https://www.virustotal.com/gui/file/d6b52d6cf259471217515694cd867ac4cfbcd4c989d0966380f840bd8d571667) | ✅ |
+| simplex-desktop-macos-x86_64.dmg | [0/74](https://www.virustotal.com/gui/file/508e1155d05d7cec6aae92252108d91fbb1c29db0c33436ea85ec145aecf4179) | ✅ |
+| simplex-desktop-ubuntu-22_04-aarch64.deb | [0/74](https://www.virustotal.com/gui/file/6f297bd5906ccc9ed4355ad2bbd01b2fa5171504944c4ca2c1b8a16fbf4a9526) | ✅ |
+| simplex-desktop-ubuntu-22_04-x86_64.deb | [0/74](https://www.virustotal.com/gui/file/73d9947058eda776f9cc63bb01390fcb23713a5617aa544b6ea11eb4c5e995c6) | ✅ |
+| simplex-desktop-ubuntu-24_04-aarch64.deb | [0/75](https://www.virustotal.com/gui/file/fc432510e31e135e778f3d2fc2eb99f39b59d7bcb3c96e0b372765955eb9b322) | ✅ |
+| simplex-desktop-ubuntu-24_04-x86_64.deb | [0/74](https://www.virustotal.com/gui/file/7c81c9998839d2e445fbab5b8d44bebf13f0eb6bb16c2dc380c1404cdbcb54de) | ✅ |
 | simplex-desktop-windows-x86_64.msi | [0/73](https://www.virustotal.com/gui/file/2bd3aed8727033d63b9e6f139044a32b349e278f797cac00124b7745ce276c8f) | ✅ |
 | simplex-desktop-x86_64.AppImage | [0/76](https://www.virustotal.com/gui/file/30b3da6944e929ab7e4b8e849d1713b649975ee60aa63e227153982bc9af66a3) | ✅ |
-| simplex.apk | [0/76](https://www.virustotal.com/gui/file/8e875bed7b26c25e1714e27fc89edbd22d168e27d805f31b7d5480cfb3a5fca6) | ✅ |
+| simplex.apk | [0/74](https://www.virustotal.com/gui/file/8e875bed7b26c25e1714e27fc89edbd22d168e27d805f31b7d5480cfb3a5fca6) | ✅ |
