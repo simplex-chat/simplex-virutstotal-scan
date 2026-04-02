@@ -1,5 +1,5 @@
 # VirusTotal Scan Results
-_Last updated: 2026-04-01 03:46:47 UTC_
+_Last updated: 2026-04-02 03:04:28 UTC_
 
 ## [v6.4.11](https://github.com/simplex-chat/simplex-chat/releases/tag/v6.4.11)
 | File | Threats detected | Safe? |
