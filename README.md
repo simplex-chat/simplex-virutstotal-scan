@@ -1,10 +1,10 @@
 # VirusTotal Scan Results
-_Last updated: 2026-04-09 03:02:00 UTC_
+_Last updated: 2026-04-10 03:05:10 UTC_
 
 ## [v6.4.11](https://github.com/simplex-chat/simplex-chat/releases/tag/v6.4.11)
 | File | Threats detected | Safe? |
 | ---- | ---------------- | ----- |
-| simplex-aarch64.apk | [0/75](https://www.virustotal.com/gui/file/38ba655034c2a47ef2333c397568832d252eb4fc5570ed2505236ce043bf107c) | ✅ |
+| simplex-aarch64.apk | [0/76](https://www.virustotal.com/gui/file/38ba655034c2a47ef2333c397568832d252eb4fc5570ed2505236ce043bf107c) | ✅ |
 | simplex-armv7a.apk | [0/75](https://www.virustotal.com/gui/file/a7d4862979e87a26208879fde4e6d5b01c15f9cbca0d2be01986266540ff116e) | ✅ |
 | simplex-chat-macos-aarch64 | [0/75](https://www.virustotal.com/gui/file/adff3714327f619bc24049256686ba1952e7c53f2d303af45e658b039b4401f6) | ✅ |
 | simplex-chat-macos-x86-64 | [0/75](https://www.virustotal.com/gui/file/b3eac6d8c91e46b1d40efe936a210822e8de0e59683267bb7325993f59f0874d) | ✅ |
@@ -26,7 +26,7 @@ _Last updated: 2026-04-09 03:02:00 UTC_
 | simplex-desktop-ubuntu-24_04-x86_64.deb | [0/75](https://www.virustotal.com/gui/file/1c6435463fc42f8156adf706a8a0d387d52fc915753a36adbd9f22d1ded56860) | ✅ |
 | simplex-desktop-windows-x86_64.msi | [0/76](https://www.virustotal.com/gui/file/9f64fc03c8f8756805dd25699d7b7ec364259495aa6f4f623035b85163ac9750) | ✅ |
 | simplex-desktop-x86_64.AppImage | [0/75](https://www.virustotal.com/gui/file/d1bf3c1fa78c60ef848119d6cddf71fcc502afb084fc01c36672882d0252d434) | ✅ |
-| simplex.apk | [0/75](https://www.virustotal.com/gui/file/38ba655034c2a47ef2333c397568832d252eb4fc5570ed2505236ce043bf107c) | ✅ |
+| simplex.apk | [0/76](https://www.virustotal.com/gui/file/38ba655034c2a47ef2333c397568832d252eb4fc5570ed2505236ce043bf107c) | ✅ |
 
 ## [v6.5.0-beta.7.1](https://github.com/simplex-chat/simplex-chat/releases/tag/v6.5.0-beta.7.1)
 | File | Threats detected | Safe? |
