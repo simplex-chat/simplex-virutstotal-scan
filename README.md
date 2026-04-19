@@ -1,5 +1,5 @@
 # VirusTotal Scan Results
-_Last updated: 2026-04-18 03:15:39 UTC_
+_Last updated: 2026-04-19 03:03:02 UTC_
 
 ## [v6.4.11](https://github.com/simplex-chat/simplex-chat/releases/tag/v6.4.11)
 | File | Threats detected | Safe? |
@@ -39,18 +39,18 @@ _Last updated: 2026-04-18 03:15:39 UTC_
 | simplex-chat-ubuntu-22_04-aarch64.deb | [0/76](https://www.virustotal.com/gui/file/0295af863eaa49411d69bd8f27b39b124e722016a3c7e0dbea80be73110bdc52) | ✅ |
 | simplex-chat-ubuntu-22_04-x86_64 | [0/76](https://www.virustotal.com/gui/file/798b2b52a9407bd1bc10c5c6b745e69858dbc4a709975ba451807cbe2f858718) | ✅ |
 | simplex-chat-ubuntu-22_04-x86_64.deb | [0/76](https://www.virustotal.com/gui/file/3adc2d1356bf826169686cf24e77fa65d3baf7e6aff693e9c7908f1bd85fc1a6) | ✅ |
-| simplex-chat-ubuntu-24_04-aarch64 | [0/76](https://www.virustotal.com/gui/file/a8794cba32f8607b5bfe31da370bc054352b3cf4437cc11636f0f3922fd41605) | ✅ |
+| simplex-chat-ubuntu-24_04-aarch64 | [0/75](https://www.virustotal.com/gui/file/a8794cba32f8607b5bfe31da370bc054352b3cf4437cc11636f0f3922fd41605) | ✅ |
 | simplex-chat-ubuntu-24_04-aarch64.deb | [0/76](https://www.virustotal.com/gui/file/8d52b3da73b53ebcdf81829a50fed501c3921b4fe961b53ab00ca8cdd9af8b67) | ✅ |
 | simplex-chat-ubuntu-24_04-x86_64 | [0/76](https://www.virustotal.com/gui/file/a068ef4b491944728d6afb38fa231d40527c057d925651c75314d2558f737a35) | ✅ |
 | simplex-chat-ubuntu-24_04-x86_64.deb | [0/76](https://www.virustotal.com/gui/file/625bf007bd7d5b87507701d54f0ed97b8ba25b4ee31bb794291cd058c5eaf5b0) | ✅ |
 | simplex-chat-windows-x86-64 | [0/76](https://www.virustotal.com/gui/file/6259235b0c12deab56476b4b558721f718da0f5a020d7d63a111ed4785a02d92) | ✅ |
-| simplex-desktop-aarch64.AppImage | [0/76](https://www.virustotal.com/gui/file/22b0176f3d876d29e7d6926eead2bd9b544d99dc4f5e7964da9ede37b9690bec) | ✅ |
-| simplex-desktop-macos-aarch64.dmg | [0/76](https://www.virustotal.com/gui/file/cac023fc6e3ffce9e742357be346bf5bd2ff8a0d7b4c739def286332e7c6cb07) | ✅ |
-| simplex-desktop-macos-x86_64.dmg | [0/76](https://www.virustotal.com/gui/file/7a55c46e74360f48140c76690337a52bc1ae012805f78174561bb642641db0d3) | ✅ |
-| simplex-desktop-ubuntu-22_04-aarch64.deb | [0/76](https://www.virustotal.com/gui/file/fce6259da798ac5534a05684c38bc73ab7f91c89fc5d4747fbad925bacbe3442) | ✅ |
-| simplex-desktop-ubuntu-22_04-x86_64.deb | [0/76](https://www.virustotal.com/gui/file/744390ee41ba4a209ebcfc9e3735a2ebdd934e02296ecc898822a22fd55c9077) | ✅ |
-| simplex-desktop-ubuntu-24_04-aarch64.deb | [0/76](https://www.virustotal.com/gui/file/70c10ca8850b43c56ab09007d2cf52ead4fe2746200089d24e026ceb141d014f) | ✅ |
-| simplex-desktop-ubuntu-24_04-x86_64.deb | [0/76](https://www.virustotal.com/gui/file/fd8b4a62d67ae9ee43f45fb5f7178815326d5d75b95411f52162f1129d148d20) | ✅ |
-| simplex-desktop-windows-x86_64.msi | [0/76](https://www.virustotal.com/gui/file/701ccb87acbc5359c31161642dddf48f5849d7d1b6780dad7293b372a722c999) | ✅ |
+| simplex-desktop-aarch64.AppImage | [0/74](https://www.virustotal.com/gui/file/22b0176f3d876d29e7d6926eead2bd9b544d99dc4f5e7964da9ede37b9690bec) | ✅ |
+| simplex-desktop-macos-aarch64.dmg | [0/74](https://www.virustotal.com/gui/file/cac023fc6e3ffce9e742357be346bf5bd2ff8a0d7b4c739def286332e7c6cb07) | ✅ |
+| simplex-desktop-macos-x86_64.dmg | [0/74](https://www.virustotal.com/gui/file/7a55c46e74360f48140c76690337a52bc1ae012805f78174561bb642641db0d3) | ✅ |
+| simplex-desktop-ubuntu-22_04-aarch64.deb | [0/74](https://www.virustotal.com/gui/file/fce6259da798ac5534a05684c38bc73ab7f91c89fc5d4747fbad925bacbe3442) | ✅ |
+| simplex-desktop-ubuntu-22_04-x86_64.deb | [0/73](https://www.virustotal.com/gui/file/744390ee41ba4a209ebcfc9e3735a2ebdd934e02296ecc898822a22fd55c9077) | ✅ |
+| simplex-desktop-ubuntu-24_04-aarch64.deb | [0/74](https://www.virustotal.com/gui/file/70c10ca8850b43c56ab09007d2cf52ead4fe2746200089d24e026ceb141d014f) | ✅ |
+| simplex-desktop-ubuntu-24_04-x86_64.deb | [0/75](https://www.virustotal.com/gui/file/fd8b4a62d67ae9ee43f45fb5f7178815326d5d75b95411f52162f1129d148d20) | ✅ |
+| simplex-desktop-windows-x86_64.msi | [0/72](https://www.virustotal.com/gui/file/701ccb87acbc5359c31161642dddf48f5849d7d1b6780dad7293b372a722c999) | ✅ |
 | simplex-desktop-x86_64.AppImage | [0/76](https://www.virustotal.com/gui/file/4eea7ba5ff6f3c0c5decdda9726eb682b2c1b59c8271dfa11f6958f6b4a9750d) | ✅ |
 | simplex.apk | [0/76](https://www.virustotal.com/gui/file/7cf512c99375b4e0d48b9fb6ffe88241bf1c2c8e47d68dcc9d2e7447f927a470) | ✅ |
