@@ -1,5 +1,5 @@
 # VirusTotal Scan Results
-_Last updated: 2026-04-26 03:03:07 UTC_
+_Last updated: 2026-04-27 03:03:36 UTC_
 
 ## [v6.4.11](https://github.com/simplex-chat/simplex-chat/releases/tag/v6.4.11)
 | File | Threats detected | Safe? |
@@ -10,7 +10,7 @@ _Last updated: 2026-04-26 03:03:07 UTC_
 | simplex-chat-macos-x86-64 | [0/75](https://www.virustotal.com/gui/file/b3eac6d8c91e46b1d40efe936a210822e8de0e59683267bb7325993f59f0874d) | ✅ |
 | simplex-chat-ubuntu-22_04-aarch64 | [0/75](https://www.virustotal.com/gui/file/17323275dde867fdfaaaa1570ec1405d70fcf9403d03179b196f2a60cb479832) | ✅ |
 | simplex-chat-ubuntu-22_04-aarch64.deb | [0/75](https://www.virustotal.com/gui/file/c085c419a0266c2c6996a84f279c5ee7adf0db7c1c0d77ec364bdb71fb095559) | ✅ |
-| simplex-chat-ubuntu-22_04-x86_64 | [0/76](https://www.virustotal.com/gui/file/b4b32953880cbc157dc05b2465b9f151c48ce609089031aa4737ce2d17d71f2d) | ✅ |
+| simplex-chat-ubuntu-22_04-x86_64 | [0/75](https://www.virustotal.com/gui/file/b4b32953880cbc157dc05b2465b9f151c48ce609089031aa4737ce2d17d71f2d) | ✅ |
 | simplex-chat-ubuntu-22_04-x86_64.deb | [0/75](https://www.virustotal.com/gui/file/53c79feb8e022acdaeb92a10b0822b4bee57656f0cbbe9a7932ea4a2cbd65262) | ✅ |
 | simplex-chat-ubuntu-24_04-aarch64 | [0/75](https://www.virustotal.com/gui/file/4f3849c29cc54cd52b7dc9d6ae6d12c22a10a0b0fe870c1e0bf87cbcc95534d8) | ✅ |
 | simplex-chat-ubuntu-24_04-aarch64.deb | [0/75](https://www.virustotal.com/gui/file/e39648fec67f583b226bc5fe5ab14f9d868bcce21753ffcb5a6ff42d8337c0f6) | ✅ |
@@ -20,7 +20,6 @@ _Last updated: 2026-04-26 03:03:07 UTC_
 | simplex-desktop-aarch64.AppImage | [0/75](https://www.virustotal.com/gui/file/57221750b6ce6259ecd52ec8eda5331c4f99ef676dd9001d96145a421df432ed) | ✅ |
 | simplex-desktop-macos-aarch64.dmg | [0/76](https://www.virustotal.com/gui/file/46fb3b4acf318c5df229c3de10ad3368e7173cc548ff417079c8a3c818c16008) | ✅ |
 | simplex-desktop-macos-x86_64.dmg | [0/75](https://www.virustotal.com/gui/file/e7e9b8ce22d0617f469144f9fc23ae8698a79f0054f86a1037b6f71d10be5a82) | ✅ |
-| simplex-desktop-ubuntu-22_04-aarch64.deb | [0/75](https://www.virustotal.com/gui/file/b8fab72f8f34c5594177738922e625bd09c9e0faa2512549c57c2a6e8e9fe5be) | ✅ |
 | simplex-desktop-ubuntu-22_04-x86_64.deb | [0/75](https://www.virustotal.com/gui/file/524a34afef909a08fb68f28990e9be966dd19d51294ce9fc95a41e0552fdaba2) | ✅ |
 | simplex-desktop-ubuntu-24_04-aarch64.deb | [0/75](https://www.virustotal.com/gui/file/d029b461e2cd95102bb3061b80840a3676a68d26ab38884eeb6ccd051ba7278b) | ✅ |
 | simplex-desktop-ubuntu-24_04-x86_64.deb | [0/75](https://www.virustotal.com/gui/file/1c6435463fc42f8156adf706a8a0d387d52fc915753a36adbd9f22d1ded56860) | ✅ |
