@@ -1,5 +1,5 @@
 # VirusTotal Scan Results
-_Last updated: 2026-10-04 03:24:02 UTC_
+_Last updated: 2026-10-05 02:21:05 UTC_
 
 ## [v7.0.3](https://github.com/simplex-chat/simplex-chat/releases/tag/v7.0.3)
 | File | Threats detected | Safe? |
@@ -22,10 +22,10 @@ _Last updated: 2026-10-04 03:24:02 UTC_
 | simplex-desktop-macos-x86_64.dmg | [0/73](https://www.virustotal.com/gui/file/8e7be5015dd8b3f96ef08c8752f99d7db517d8461b87db1ac56bd561414219e7) | ✅ |
 | simplex-desktop-ubuntu-22_04-aarch64.deb | [0/73](https://www.virustotal.com/gui/file/0d0fd94404a67e35b9218d5afb1c5fca5f3101782b19aea415f90831d874d5a2) | ✅ |
 | simplex-desktop-ubuntu-22_04-x86_64.deb | [0/75](https://www.virustotal.com/gui/file/21be1e78c1089c01567ccfec58cdf3e72a2733aa232c5288b8f155e6c7caba0b) | ✅ |
-| simplex-desktop-ubuntu-24_04-aarch64.deb | [0/75](https://www.virustotal.com/gui/file/3720c2428952e53d39b8cd4c76dd8e801e182bba4e40b2010786a6e465153b4e) | ✅ |
-| simplex-desktop-ubuntu-24_04-x86_64.deb | [0/75](https://www.virustotal.com/gui/file/67fa2919fc1bc0e034a9f014e8d4b2ba9072be2056a44436c230fc4a6fa3d839) | ✅ |
+| simplex-desktop-ubuntu-24_04-aarch64.deb | [0/73](https://www.virustotal.com/gui/file/3720c2428952e53d39b8cd4c76dd8e801e182bba4e40b2010786a6e465153b4e) | ✅ |
+| simplex-desktop-ubuntu-24_04-x86_64.deb | [0/73](https://www.virustotal.com/gui/file/67fa2919fc1bc0e034a9f014e8d4b2ba9072be2056a44436c230fc4a6fa3d839) | ✅ |
 | simplex-desktop-windows-x86_64.msi | [0/75](https://www.virustotal.com/gui/file/0162d8eb42917b59962203b74527512c6d05eb032cf6e8189b62eb39587fbc79) | ✅ |
-| simplex-desktop-x86_64.AppImage | [0/75](https://www.virustotal.com/gui/file/404220f16f1c03879b8d7402e31e8ce525dc3ce7a6904637bd48e19974f2536a) | ✅ |
+| simplex-desktop-x86_64.AppImage | [0/74](https://www.virustotal.com/gui/file/404220f16f1c03879b8d7402e31e8ce525dc3ce7a6904637bd48e19974f2536a) | ✅ |
 | simplex.apk | [0/75](https://www.virustotal.com/gui/file/d535e5a8986d4e11b9abd5656a3c0e1be5a08e06b00a7b20d6b7587ed0c3457f) | ✅ |
 
 ## [v7.1.0-beta.6](https://github.com/simplex-chat/simplex-chat/releases/tag/v7.1.0-beta.6)
